@@ -1,0 +1,39 @@
+.desktop {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.tablet {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.mobile{
+     padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width:400em) {  
+  .desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2em) and (max-width: 31em){  
+  .desktop {
+    opacity: 0%;
+  }
+    .tablet{
+        display: none;
+    }
+}
+.mobile{
+    display: block;
+}

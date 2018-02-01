@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtpagina: 99 verhalen</title>
+    <link rel="stylesheet" href="styles/overzichtstijlorigineel.css" />
+    <meta name="viewport" content="width=device-width, initial=scale=1.0">
+</head>
+
+<body>
+    
+    <header>
+            
+        <nav>
+            <h1>Verhalen Overzicht</h1>
+            <a href="overzichtpaginaorigineel.html">
+                <img class="logo" src="images/nslogo.png" alt="logo">
+            </a>
+            <a href="aanmeldpagina.html">
+                <img class="bookmarked" src="images/unliked.png" alt="bookmarked">
+            </a>
+            <a href="aanmeldpagina.html">
+                <img class="profile" src="images/profile.png" alt="profile">
+            </a>
+        </nav>    
+            
+            <button class="light">
+                <label class="lightdark" for="toggleDay">Dag</label>
+                <label class="switch">
+                    <input type="checkbox" id="toggleDay">
+                    <div class="slider"></div>
+                </label>
+                <label class="lightdark" for="toggleDay">Nacht</label>
+            </button>
+            <!--Day & Night Toggle m.b.v. Diem ca-->
+          
+            <form id="sort">
+                <ul>
+                    <li><a href="#" >Recent Toegevoegd</a></li>
+                    <li><a href="#" class="bestrated">Best Beoordeeld</a></li>
+                    <li><a href="#" >Meest Bekeken</a></li>
+                </ul>
+            </form>
+    </header>
+    
+    <form id="filter">
+        <fieldset>
+            <legend>Filter Opties</legend>
+
+            <div>
+                <select>
+                    <option value="biography">biografie</option>
+                    <option value="interview">interview</option>
+                    <option value="informative">informatief</option>
+                    <option value="writingstyle" selected>-schrijfstijl-</option>
+                </select>
+                <select class="level">
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="level" selected>-niveau-</option>
+                </select>            
+            </div>
+            <select class="writer">
+                <option value="molovich">Molovich</option>
+                <option value="writer" selected>-schrijver-</option>
+            </select> 
+            <a href="overzichtpaginaorigineel.html">
+                <button>Wis Filters</button>
+            </a>
+                <input type="search" id="mySearch" name="q" placeholder="Zoeken...">
+        </fieldset>
+    </form>
+    
+    <p class="featured">Uitgelichte Verhalen</p> 
+    <p class="amount">1-66/99 verhalen</p>
+
+    <main>
+        <ul class='flexbox'>
+
+            <li>
+                <article>
+                    <a href="vrijdag.html">     
+                        <h2>Vrijdag de 13e</h2>
+                        <footer>13 mei 2014 door Molovich</footer>
+                        <p class="text">- Bij het uitstappen van de bus waait mijn jas open, precies op het moment dat de buschaufeur de deuren sluit. Terwijl ik de kinderwagen waarin mijn zoon ligt te krijsen vasthoudt, ren ik mee met de bus en schreeuw ik naar de buschauffeur dat hij moet stoppen. Maar hij hoort me niet, de bus draait […]</p>
+                         <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->       
+                    </a>
+                </article>
+            </li>
+
+            <li>
+                <article>
+                    <a href="paranoia.html">
+                        <h2>Paranoia</h2>
+                        <footer>21 april 2014 door Molovich</footer>
+                        <p class="text">Ik sluip de bus uit. Kop in de kraag. Ik maak me klein en duw m’n zoon vooruit. Hij slaapt. Eindelijk. Zijn gejengel trok veel te veel aandacht. De mensen lopen over het stationsplein. Het voelt alsof er een grote, knipperende pijl boven m’n hoofd hangt: HIER LOOPT HIJ! Gelukkig is het kloteweer en kijken […]</p>
+                         <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->
+                    </a>
+                </article>
+            </li>
+
+            <li>
+                <article>
+                    <a href="notitie.html">
+                        <h2>Notitie</h2>
+                        <footer>15 februari 2011 door Molovich</footer>
+                        <p class="text">Bus 21. Ik stap uit. Het is een gure dag, geen ultraviolette zonnestralen die het tere huidje van mijn zoontje aantasten. Hij ligt te slapen in z’n paarse kinderwagen. De reizigers lopen van en naar CS. Ik ga naar de Openbare Bibliotheek om Stijloefeningen van Raymond Queneau te lenen. […]</p>
+                         <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->
+                </a>
+                     </article>
+            </li>
+            <li>
+                <article>
+                        <h2>Code</h2>
+                        <footer>17 Juni 2011 door Molovich</footer>
+                        <p class="text">Kraak de code en win een romantisch etentje met de verwarde man. In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engelen buigen uitermate succesvol en negeren langzaam onze overrijpe politieke overlevingstrategieën. Verveelde en radicaal […]
+                        </p>
+                         <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->
+                </article>
+            </li>
+            <li>
+                <article>
+                        <h2>Schoorsteen</h2>
+                        <footer>16 Februari 2011 door Molovich</footer>
+                        <p class="text">k stap de schoorsteen uit. Mijn schoorsteen is net in slaap gevallen. Ik ben op weg naar de Openbare Schoorsteen, in de hoop dat ze daar Schoorsteenoefeningen, van Raymond Cheminée hebben. Het waait flink en miezert een beetje op mijn platte. Ik loop over een dunne schoorsteen langs die gapend[…]
+                        </p>
+                
+                        <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->
+                 </article>
+            </li>
+            
+            <li>
+                <article>
+                        <h2>Droom</h2>
+                        <footer>16 Februari 2011 door Molovich</footer>
+                        <p class="text">Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm,  zweet parelde langs mijn slapen, mijn zoon sliep. Nu loop ik over een smal pad langs eindeloos diepe bouwputten. Een heipaal beukt zich een weg naar het binnenste van mijn oor. Lachende Japannerspasseren mij in een achteruitspiegel waar langszaam en zeker een […]
+                        </p>
+                         <div id="liked">
+                            <p>
+                                <a id="likeit" href="#popup1">Like verhaal</a>
+                            </p>
+                        </div>
+
+                        <div id="popup1" class="overlay">
+                            <div class="popup">
+                                <p>Liked</p>
+                                <a class="close" href="#">&times;</a>
+                                <div class="content">
+                                    <footer>Het verhaal is toegevoegd aan je gelikede pagina's</footer>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Popup code van www.eichefam.net door Paul-->
+                </article>
+            </li>
+        </ul>
+        
+    </main>
+    
+    <script src="script.js" ></script>
+    
+</body>
